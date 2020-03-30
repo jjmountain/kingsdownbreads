@@ -3,9 +3,10 @@
   height: 100vh;
   background-image: asset-url("homebg.jpg");
   background-size: cover;
+  background-position: center bottom;
 }
-.container {
-  padding-top: 6rem;
+.container-fluid {
+  padding: 56px 0 0 0;
 }
 .main-banner {
   background-color: transparent;
@@ -15,8 +16,16 @@
 .main-banner .logo {
   color: #f7dac5;
 }
+.card-main {
+  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.1);
+}
+.banner-clouds {
+  background-image: asset-url("cloudbg.jpg");
+  background-size: cover;
+  height: 250px;
+}
 @media (min-width: 768px) {
-  .main-banner.logo {
+  .main-banner .logo {
     font-size: 4.5rem;
   }
 }
