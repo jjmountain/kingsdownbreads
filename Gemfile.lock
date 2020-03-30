@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/jjmountain/concurrent-ruby.git
+  revision: b8ec2e33a9a84b258acc1c33a94484f0ef111030
+  ref: b8ec2e3
+  specs:
+    concurrent-ruby (1.0.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -75,7 +82,6 @@ GEM
       regexp_parser (~> 1.5)
       xpath (~> 3.2)
     childprocess (3.0.0)
-    concurrent-ruby (1.1.6)
     crass (1.0.6)
     devise (4.7.1)
       bcrypt (~> 3.0)
@@ -226,6 +232,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
+  concurrent-ruby!
   devise
   dotenv-rails
   jbuilder (~> 2.7)
