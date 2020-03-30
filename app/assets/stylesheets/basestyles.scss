@@ -1,41 +1,54 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:700&display=swap');
+
+
+
 body {
   margin: 0px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
+
 .navbar-light {
-  background: transparent;
+  background:transparent;
 }
+
 button:focus {
   outline: 0;
 }
+
 .navbar .dropdown-menu .form-control {
   width: 200px;
 }
+
 #grey-navbar-nav {
   padding: 1rem;
   background: gray;
   margin-top: 1rem;
 }
+
 #white-navbar-nav {
   padding: 1rem;
   background: white;
   margin-top: 1rem;
 }
+
 .navbar-light {
   -webkit-box-shadow: 0 8px 6px -6px #999;
-  -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+    /* the rest of your styling */
 }
+
 #login-navbar-nav {
   padding: 1rem;
 }
+
+
 @media (min-width: 768px) {
-  #grey-navbar-nav,
-  #login-navbar-nav,
-  #white-navbar-nav {
+  #grey-navbar-nav, #login-navbar-nav, #white-navbar-nav {
     background: transparent;
     padding: 0;
     margin-top: 0;
   }
+  
 }
