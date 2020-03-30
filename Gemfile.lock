@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:ruby-concurrency/concurrent-ruby.git
+  remote: git@github.com:jjmountain/concurrent-ruby.git
   revision: a6654b3c8456e74a97fb233646b0781c4fcf20c9
   branch: segfault
   specs:
