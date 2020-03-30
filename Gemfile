@@ -56,7 +56,7 @@ group :test do
 end
 
 group :production do
-  gem 'concurrent-ruby', git: 'git@github.com:ruby-concurrency/concurrent-ruby.git', branch: 'segfault'
+  gem 'concurrent-ruby', git: 'git@github.com:jjmountain/concurrent-ruby.git', branch: 'segfault'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
