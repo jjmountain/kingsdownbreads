@@ -32,10 +32,14 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise'
 gem 'acts-as-taggable-on'
 gem 'simple_form'
+gem 'concurrent-ruby', git: "https://#{ENV['BUNDLE_GITHUB__COM']}:x-oauth-basic@github.com/jjmountain/concurrent-ruby.git", branch: 'segfault'
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'dotenv-rails'
 end
 
 group :development do
@@ -53,10 +57,6 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
-end
-
-group :production do
-  gem 'concurrent-ruby', git: "https://#{ENV['BUNDLE_GITHUB__COM']}:x-oauth-basic@github.com/jjmountain/concurrent-ruby.git", branch: 'segfault'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
