@@ -32,7 +32,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise'
 gem 'acts-as-taggable-on'
 gem 'simple_form'
-gem 'concurrent-ruby', '1.0.3'
+gem 'concurrent-ruby', path: '../concurrent-ruby'
 
 
 group :development, :test do
