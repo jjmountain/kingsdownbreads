@@ -55,10 +55,8 @@ group :test do
   gem 'webdrivers'
 end
 
-git: "https://your_token:x-oauth-basic@github.com/renderedtext/ventana.git"
-
 group :production do
-  gem 'concurrent-ruby', git: "https://#{ENV['BUNDLE_GITHUB__COM']}:x-oauth-basic@github.com/ruby-concurrency/concurrent-ruby.git", branch: 'segfault'
+  gem 'concurrent-ruby', git: 'git@github.com:ruby-concurrency/concurrent-ruby.git', branch: 'segfault'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
