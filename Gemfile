@@ -32,8 +32,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise'
 gem 'acts-as-taggable-on'
 gem 'simple_form'
-gem 'concurrent-ruby', path: '../concurrent-ruby'
-
+gem 'concurrent-ruby', git: 'git@github.com:ruby-concurrency/concurrent-ruby.git', branch: 'segfault'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
