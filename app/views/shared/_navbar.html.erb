@@ -1,0 +1,23 @@
+
+<nav class="navbar navbar-expand-lg <%= current_page?(root_path) ? 'navbar-dark' : 'navbar-light' %> fixed-top">
+<%= link_to "Kingsdown Breads", root_path, class: 'navbar-brand' %>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item <%= current_page?(pages_about_path) ? 'active' : '' %>">
+        <%= link_to "Our Story", pages_about_path, class: 'nav-link' %>
+      </li>
+      <li class="nav-item <%= current_page?(pages_bread_path) ? 'active' : '' %>">
+        <%= link_to "Our Bread", pages_bread_path, class: 'nav-link' %>
+      </li>
+      <li class="nav-item <%= current_page?(pages_covid_path) ? 'active' : '' %>">
+        <%= link_to "Shop", listings_index_path, class: 'nav-link' %>
+      </li>
+       <li class="nav-item <%= current_page?(pages_covid_path) ? 'active' : '' %>">
+        <%= link_to "Covid", pages_covid_path, class: 'nav-link' %>
+      </li>
+    </ul>
+  </div>
+</nav>
