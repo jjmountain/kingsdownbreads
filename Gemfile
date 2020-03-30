@@ -32,6 +32,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise'
 gem 'acts-as-taggable-on'
 gem 'simple_form'
+gem 'concurrent-ruby', git: "https://github.com/jjmountain/concurrent-ruby.git", ref: 'b8ec2e3'
 
 
 group :development, :test do
