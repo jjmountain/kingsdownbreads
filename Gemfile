@@ -31,7 +31,6 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # Gems I added
 gem 'devise'
 gem 'acts-as-taggable-on'
-gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 
 group :development, :test do
