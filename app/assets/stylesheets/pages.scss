@@ -17,7 +17,17 @@
   background-color: transparent;
   text-align: center;
   color: white;
+  .logo {
+    color: #f7dac5;
+  }
 }
+
+@media (min-width: 768px ) {
+  .main-banner.logo {
+    font-size: 4.5rem;
+  }
+}
+
 
 .text-shadow-black {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
