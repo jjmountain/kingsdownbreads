@@ -1,6 +1,7 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Mansalva|Nanum+Pen+Script|Sue+Ellen+Francisco&display=swap');
 
 .hero {
   width: 100%;
@@ -20,23 +21,55 @@
   color: white;
   .logo {
     color: #f7dac5;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 6.5rem;
+
   }
+}
+
+.subtitle {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 2rem;
+
+}
+
+#navbar-logo-text {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 1.5rem;
 }
 
 .card-main {
   box-shadow: 0 5px 16px 0 rgba(0,0,0,0.1);
+  background: white;
+  padding: 2rem;
+}
+
+#pages-logo {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 6.5rem;
+}
+
+.page-photo {
+  background: white;
+  padding: 2rem;
+  width: 100%;
 }
 
 .banner-clouds {
-  background-image: asset-url('cloudbg.jpg');
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.2), 
+    rgba(0, 0, 0, 0.2)
+  ), asset-url('nice_toast.png');
   background-size: cover;
   height: 250px;
+  background-position: center ;
 }
 
 @media (min-width: 768px ) {
   .main-banner {
     .logo {
-      font-size: 4.5rem;
+      font-size: 6.5rem;
+
     }
   }
 }

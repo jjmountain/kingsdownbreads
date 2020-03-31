@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.3'
+ruby '~> 2.6.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
@@ -31,7 +31,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # Gems I added
 gem 'devise'
 gem 'simple_form'
-gem 'concurrent-ruby', git: "https://github.com/jjmountain/concurrent-ruby.git", ref: 'b8ec2e3'
+# gem 'concurrent-ruby', git: "https://github.com/jjmountain/concurrent-ruby.git", ref: 'b8ec2e3'
 
 
 group :development, :test do

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:700&display=swap');
 
 
-
 body {
   margin: 0px;
   font-family: 'Roboto', sans-serif;
@@ -25,16 +24,15 @@ button:focus {
   margin-top: 1rem;
 }
 
-.main-card {
-  box-shadow: 0 5px 16px 0 rgba(0,0,0,0.1);
-  margin-top: 2rem;
-  background: white;
-  padding: 2rem;
-}
+
+
 
 .navbar {
   .active {
     color: #cc9543;
+  }
+  .navbar-brand {
+    font-size: 2rem;
   }
 }
 

@@ -17,14 +17,11 @@ button:focus {
   background: gray;
   margin-top: 1rem;
 }
-.main-card {
-  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.1);
-  margin-top: 2rem;
-  background: white;
-  padding: 2rem;
-}
 .navbar .active {
   color: #cc9543;
+}
+.navbar .navbar-brand {
+  font-size: 2rem;
 }
 #white-navbar-nav {
   padding: 1rem;

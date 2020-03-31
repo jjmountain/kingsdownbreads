@@ -1,14 +1,15 @@
-<%= render partial: 'shared/main_banner', locals: { title: 'Our Story', subtitle: 'Who we are'} %>
-<div class="container">
-  <div class="row">
+<%= render partial: 'shared/main_banner', locals: { title: 'How it Began', subtitle: '' } %>
+<div class="container mt-5">
+  <div class="row d-flex align-items-center">
     <div class="col-xl-5 offset-xl-1">
-        <h3>How it began</h3>
+    <div class="card-main">
         <p>After finishing catering college, Richard started baking bread at home in 2017. After praise from family and friends, he began selling his bread at the Deal Saturday market.</p>
         <p>Since then, 'Kingsdown Breads' have been at the market every week, regardless of the weather. The range of breads have expanded and now include interesting combination such as beetroot and caraway, date  apricot and walnut and even a brussel sprout loaf!</p>
         <p>In response to the unprecedented situation with COVID-19, Kingsdown Breads have now gone online and will be delivering bread to the local community.</p>
     </div>
-    <div class="col-xl-5 offset-xl-1">
-        
+    </div>
+    <div class="col-xl-6">
+        <%= image_tag('deal_market.jpg', class: 'page-photo' ) %>
     </div>
   </div>
 </div>
